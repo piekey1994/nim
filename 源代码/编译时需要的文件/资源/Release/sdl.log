@@ -1,0 +1,35 @@
+﻿生成启动时间为 2015/6/22 16:44:20。
+     1>项目“d:\Document\visual studio 2013\Projects\sdl\sdl\sdl.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\document\visual studio 2013\projects\sdl\sdl\sdlClass.h(75): warning C4244: “参数”: 从“double”转换到“Uint8”，可能丢失数据
+     1>d:\document\visual studio 2013\projects\sdl\sdl\sdlClass.h(76): warning C4244: “参数”: 从“double”转换到“Uint8”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\Document\visual studio 2013\Projects\sdl\Release\sdl.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\Document\visual studio 2013\Projects\sdl\Release\sdl.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\Document\visual studio 2013\Projects\sdl\Release\sdl.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+     1>main.obj : error LNK2001: 无法解析的外部符号 _TTF_RenderUTF8_Solid
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_Init
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_DisplayFormat
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_SetVideoMode
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_DisplayFormatAlpha
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_WM_SetCaption
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_PollEvent
+     1>main.obj : error LNK2001: 无法解析的外部符号 _TTF_OpenFont
+     1>main.obj : error LNK2001: 无法解析的外部符号 _TTF_CloseFont
+     1>main.obj : error LNK2001: 无法解析的外部符号 _TTF_Init
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_SetAlpha
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_Delay
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_UpperBlit
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_CreateRGBSurface
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_Flip
+     1>main.obj : error LNK2001: 无法解析的外部符号 _IMG_Load
+     1>main.obj : error LNK2001: 无法解析的外部符号 _TTF_Quit
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_Quit
+     1>main.obj : error LNK2001: 无法解析的外部符号 _SDL_FreeSurface
+     1>MSVCRT.lib(crtexe.obj) : error LNK2001: 无法解析的外部符号 _main
+     1>d:\Document\visual studio 2013\Projects\sdl\Release\sdl.exe : fatal error LNK1120: 20 个无法解析的外部命令
+     1>已完成生成项目“d:\Document\visual studio 2013\Projects\sdl\sdl\sdl.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.58
